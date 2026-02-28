@@ -40,7 +40,7 @@ def query(sql):
     return [dict(r) for r in rows]
 
 
-# ── Weight data ────────────────────────────────────────────────────────────────
+# Weight data 
 @app.route('/api/weight')
 def weight():
     rows = query("""
@@ -55,7 +55,7 @@ def weight():
     return jsonify(rows)
 
 
-# ── Session data (for lift/volume/reps/sets charts) ───────────────────────────
+# Session data (for lift/volume/reps/sets charts)
 @app.route('/api/sessions')
 def sessions():
     rows = query("""
@@ -79,7 +79,7 @@ def sessions():
     return jsonify(rows)
 
 
-# ── Progress tracker (days since last weight or rep increase) ─────────────────
+# Progress tracker (days since last weight or rep increase)
 @app.route('/api/progress')
 def progress():
     rows = query("""
@@ -148,7 +148,7 @@ def progress():
     return jsonify(rows)
 
 
-# ── Summary stats ──────────────────────────────────────────────────────────────
+# Summary stats
 @app.route('/api/stats')
 def stats():
     weight_rows = query("""
@@ -211,7 +211,7 @@ def stats():
 
 
 
-# ── Raw workout log (for the log table in dashboard) ──────────────────────────
+# Raw workout log (for the log table in dashboard)
 @app.route('/api/log')
 def log():
     rows = query("""
@@ -231,6 +231,6 @@ def log():
 
 
 if __name__ == '__main__':
-    print("✅  Fitness API running at http://localhost:5000")
+    print("  Fitness API running at http://localhost:5000")
     print("   Open dashboard/index.html in your browser")
     app.run(debug=False, port=5000)
