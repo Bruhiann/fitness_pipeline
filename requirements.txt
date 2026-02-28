@@ -1,0 +1,4 @@
+psycopg2-binary>=2.9
+dbt-postgres>=1.7
+flask>=3.0
+flask-cors>=4.0

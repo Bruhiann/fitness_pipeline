@@ -1,0 +1,1198 @@
+[0m20:23:40.801097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001819CCE3140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001819CDECD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001819CBE8EC0>]}
+
+
+============================== 20:23:40.805763 | c758b48c-e5f5-4c54-bfda-7cd86fa2950c ==============================
+[0m20:23:40.805763 [info ] [MainThread]: Running with dbt=1.11.6
+[0m20:23:40.806554 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Brian\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:23:40.806554 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:23:40.807583 [debug] [MainThread]: Command `dbt run` failed at 20:23:40.807583 after 0.08 seconds
+[0m20:23:40.808588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001819C8C98E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001819CFA0950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001819CFA2B10>]}
+[0m20:23:40.808588 [debug] [MainThread]: Flushing usage events
+[0m20:23:41.523079 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:24:50.862626 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020581AC0F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020581AC0E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020581AC0AA0>]}
+
+
+============================== 20:24:50.866418 | 112d3253-8e15-4193-90d6-8c5432f95094 ==============================
+[0m20:24:50.866418 [info ] [MainThread]: Running with dbt=1.11.6
+[0m20:24:50.866418 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Brian\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Brian\\Desktop\\fitness_pipeline\\dbt_project\\logs'}
+[0m20:24:50.869868 [error] [MainThread]: Encountered an error:
+Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Runtime Error
+    Syntax error near line 13
+    ------------------------------
+    10 |       dbname: fitness_db
+    11 |       schema: public
+    12 |       threads: 4
+    13 | ```
+    14 | 
+    15 | Then run dbt again:
+    16 | ```
+    
+    Raw Error:
+    ------------------------------
+    while scanning for the next token
+    found character that cannot start any token
+      in "<unicode string>", line 13, column 1
+  
+[0m20:24:50.870867 [debug] [MainThread]: Command `dbt run` failed at 20:24:50.870867 after 0.09 seconds
+[0m20:24:50.871867 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020581989AC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205818B1E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020581AC3470>]}
+[0m20:24:50.871867 [debug] [MainThread]: Flushing usage events
+[0m20:24:51.484048 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:25:26.501533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46AB1A6F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46AB1BEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46AB1ACC0>]}
+
+
+============================== 20:25:26.505601 | 2586d131-f3b8-4ee6-a744-bbcd3a24f897 ==============================
+[0m20:25:26.505601 [info ] [MainThread]: Running with dbt=1.11.6
+[0m20:25:26.505601 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Brian\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Brian\\Desktop\\fitness_pipeline\\dbt_project\\logs'}
+[0m20:25:26.756776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2586d131-f3b8-4ee6-a744-bbcd3a24f897', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46BD13890>]}
+[0m20:25:26.814399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2586d131-f3b8-4ee6-a744-bbcd3a24f897', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46C325BE0>]}
+[0m20:25:26.815399 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m20:25:27.092263 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m20:25:27.093265 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:25:27.093265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2586d131-f3b8-4ee6-a744-bbcd3a24f897', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46C33AB70>]}
+[0m20:25:28.727880 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.fitness_pipeline.stg_workout_log' (models\staging\stg_workout_log.sql) depends on a source named 'raw.workout_log' which was not found
+[0m20:25:28.728879 [debug] [MainThread]: Command `dbt run` failed at 20:25:28.728879 after 2.35 seconds
+[0m20:25:28.729879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46BC74A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46C6B7BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A46C3925A0>]}
+[0m20:25:28.729879 [debug] [MainThread]: Flushing usage events
+[0m20:25:29.309623 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:45:01.912938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000277594A4EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002775B9AAE40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002775B9AB860>]}
+
+
+============================== 20:45:01.915938 | f1ccebe4-c87c-492b-8623-e31641a28de2 ==============================
+[0m20:45:01.915938 [info ] [MainThread]: Running with dbt=1.11.6
+[0m20:45:01.916938 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Brian\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Brian\\Desktop\\fitness_pipeline\\dbt_project\\logs'}
+[0m20:45:02.087128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f1ccebe4-c87c-492b-8623-e31641a28de2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002775C8F0B00>]}
+[0m20:45:02.142782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f1ccebe4-c87c-492b-8623-e31641a28de2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002775ADE5D00>]}
+[0m20:45:02.144782 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m20:45:02.379297 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m20:45:02.380297 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m20:45:02.380297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f1ccebe4-c87c-492b-8623-e31641a28de2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002775DF275C0>]}
+[0m20:45:03.306817 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.fitness_pipeline.fct_pr_tracker' (models\marts\fct_pr_tracker.sql) depends on a node named 'fct_workout_session' which was not found
+[0m20:45:03.307816 [debug] [MainThread]: Command `dbt run` failed at 20:45:03.307816 after 1.52 seconds
+[0m20:45:03.308818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002775C6D87A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002775E386FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002775C766CF0>]}
+[0m20:45:03.308818 [debug] [MainThread]: Flushing usage events
+[0m20:45:03.900019 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:12:07.499278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DBA3B680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6D8D09010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DBA3A600>]}
+
+
+============================== 23:12:07.503833 | d7f28d4d-3dc4-4a5d-ab7e-ec6911945917 ==============================
+[0m23:12:07.503833 [info ] [MainThread]: Running with dbt=1.11.6
+[0m23:12:07.503833 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Brian\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Brian\\Desktop\\fitness_pipeline\\dbt_project\\logs'}
+[0m23:12:07.681959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DBA38590>]}
+[0m23:12:07.737995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6D9368380>]}
+[0m23:12:07.738994 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m23:12:07.970904 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m23:12:07.971417 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:12:07.972415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DD336300>]}
+[0m23:12:08.974166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DD7EDDC0>]}
+[0m23:12:09.028030 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\manifest.json
+[0m23:12:09.031116 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\semantic_manifest.json
+[0m23:12:09.062245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DD810A40>]}
+[0m23:12:09.062759 [info ] [MainThread]: Found 5 models, 2 sources, 464 macros
+[0m23:12:09.062759 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DD295CD0>]}
+[0m23:12:09.064756 [info ] [MainThread]: 
+[0m23:12:09.064756 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:12:09.065756 [info ] [MainThread]: 
+[0m23:12:09.065756 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:12:09.069656 [debug] [ThreadPool]: Acquiring new postgres connection 'list_fitness_db'
+[0m23:12:09.069656 [debug] [ThreadPool]: Acquiring new postgres connection 'list_fitness_db'
+[0m23:12:11.134905 [debug] [ThreadPool]: Using postgres connection "list_fitness_db"
+[0m23:12:11.134905 [debug] [ThreadPool]: Using postgres connection "list_fitness_db"
+[0m23:12:11.135905 [debug] [ThreadPool]: On list_fitness_db: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "list_fitness_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:12:11.135905 [debug] [ThreadPool]: On list_fitness_db: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "list_fitness_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:12:11.135905 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:12:11.136905 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:12:11.162905 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.026 seconds
+[0m23:12:11.163905 [debug] [ThreadPool]: On list_fitness_db: Close
+[0m23:12:11.165906 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.029 seconds
+[0m23:12:11.166906 [debug] [ThreadPool]: On list_fitness_db: Close
+[0m23:12:11.167906 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_fitness_db, now create_fitness_db_public_staging)
+[0m23:12:11.167906 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_fitness_db, now create_fitness_db_public_marts)
+[0m23:12:11.168906 [debug] [ThreadPool]: Creating schema "database: "fitness_db"
+schema: "public_staging"
+"
+[0m23:12:11.168906 [debug] [ThreadPool]: Creating schema "database: "fitness_db"
+schema: "public_marts"
+"
+[0m23:12:11.173906 [debug] [ThreadPool]: Using postgres connection "create_fitness_db_public_staging"
+[0m23:12:11.174906 [debug] [ThreadPool]: Using postgres connection "create_fitness_db_public_marts"
+[0m23:12:11.175906 [debug] [ThreadPool]: On create_fitness_db_public_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "create_fitness_db_public_staging"} */
+create schema if not exists "public_staging"
+[0m23:12:11.175906 [debug] [ThreadPool]: On create_fitness_db_public_marts: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "create_fitness_db_public_marts"} */
+create schema if not exists "public_marts"
+[0m23:12:11.175906 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:12:11.176905 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:12:11.189673 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.013 seconds
+[0m23:12:11.190701 [debug] [ThreadPool]: On create_fitness_db_public_staging: COMMIT
+[0m23:12:11.191213 [debug] [ThreadPool]: Using postgres connection "create_fitness_db_public_staging"
+[0m23:12:11.191731 [debug] [ThreadPool]: On create_fitness_db_public_staging: COMMIT
+[0m23:12:11.193316 [debug] [ThreadPool]: SQL status: COMMIT in 0.002 seconds
+[0m23:12:11.193830 [debug] [ThreadPool]: On create_fitness_db_public_staging: Close
+[0m23:12:11.197298 [debug] [ThreadPool]: SQL status: CREATE SCHEMA in 0.020 seconds
+[0m23:12:11.197814 [debug] [ThreadPool]: On create_fitness_db_public_marts: COMMIT
+[0m23:12:11.198846 [debug] [ThreadPool]: Using postgres connection "create_fitness_db_public_marts"
+[0m23:12:11.198846 [debug] [ThreadPool]: On create_fitness_db_public_marts: COMMIT
+[0m23:12:11.200960 [debug] [ThreadPool]: SQL status: COMMIT in 0.002 seconds
+[0m23:12:11.201509 [debug] [ThreadPool]: On create_fitness_db_public_marts: Close
+[0m23:12:11.202581 [debug] [ThreadPool]: Acquiring new postgres connection 'list_fitness_db_public_staging'
+[0m23:12:11.203131 [debug] [ThreadPool]: Acquiring new postgres connection 'list_fitness_db_public_marts'
+[0m23:12:11.207771 [debug] [ThreadPool]: Using postgres connection "list_fitness_db_public_staging"
+[0m23:12:11.210793 [debug] [ThreadPool]: Using postgres connection "list_fitness_db_public_marts"
+[0m23:12:11.210793 [debug] [ThreadPool]: On list_fitness_db_public_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "list_fitness_db_public_staging"} */
+select
+      'fitness_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_staging'
+    union all
+    select
+      'fitness_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_staging'
+    union all
+    select
+      'fitness_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_staging'
+  
+[0m23:12:11.211793 [debug] [ThreadPool]: On list_fitness_db_public_marts: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "list_fitness_db_public_marts"} */
+select
+      'fitness_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'fitness_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'fitness_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_marts'
+  
+[0m23:12:11.211793 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:12:11.212436 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:12:11.230475 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.019 seconds
+[0m23:12:11.231474 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.020 seconds
+[0m23:12:11.232472 [debug] [ThreadPool]: On list_fitness_db_public_marts: ROLLBACK
+[0m23:12:11.233930 [debug] [ThreadPool]: On list_fitness_db_public_staging: ROLLBACK
+[0m23:12:11.234499 [debug] [ThreadPool]: On list_fitness_db_public_marts: Close
+[0m23:12:11.234499 [debug] [ThreadPool]: On list_fitness_db_public_staging: Close
+[0m23:12:11.239124 [debug] [MainThread]: Using postgres connection "master"
+[0m23:12:11.239635 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m23:12:11.239635 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:12:11.255489 [debug] [MainThread]: SQL status: SELECT 0 in 0.016 seconds
+[0m23:12:11.256490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DDBEBB30>]}
+[0m23:12:11.257489 [debug] [MainThread]: On master: ROLLBACK
+[0m23:12:11.257489 [debug] [MainThread]: On master: COMMIT
+[0m23:12:11.258489 [debug] [MainThread]: Using postgres connection "master"
+[0m23:12:11.259150 [debug] [MainThread]: On master: COMMIT
+[0m23:12:11.259662 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m23:12:11.259662 [debug] [MainThread]: On master: Close
+[0m23:12:11.265488 [debug] [Thread-1 (]: Began running node model.fitness_pipeline.stg_weight_log
+[0m23:12:11.265488 [debug] [Thread-2 (]: Began running node model.fitness_pipeline.stg_workout_log
+[0m23:12:11.266488 [info ] [Thread-1 (]: 1 of 5 START sql view model public_staging.stg_weight_log ...................... [RUN]
+[0m23:12:11.266488 [info ] [Thread-2 (]: 2 of 5 START sql view model public_staging.stg_workout_log ..................... [RUN]
+[0m23:12:11.267487 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.fitness_pipeline.stg_weight_log'
+[0m23:12:11.268248 [debug] [Thread-2 (]: Acquiring new postgres connection 'model.fitness_pipeline.stg_workout_log'
+[0m23:12:11.268761 [debug] [Thread-1 (]: Began compiling node model.fitness_pipeline.stg_weight_log
+[0m23:12:11.269281 [debug] [Thread-2 (]: Began compiling node model.fitness_pipeline.stg_workout_log
+[0m23:12:11.275095 [debug] [Thread-1 (]: Writing injected SQL for node "model.fitness_pipeline.stg_weight_log"
+[0m23:12:11.277095 [debug] [Thread-2 (]: Writing injected SQL for node "model.fitness_pipeline.stg_workout_log"
+[0m23:12:11.278798 [debug] [Thread-2 (]: Began executing node model.fitness_pipeline.stg_workout_log
+[0m23:12:11.279797 [debug] [Thread-1 (]: Began executing node model.fitness_pipeline.stg_weight_log
+[0m23:12:11.307903 [debug] [Thread-2 (]: Writing runtime sql for node "model.fitness_pipeline.stg_workout_log"
+[0m23:12:11.310411 [debug] [Thread-1 (]: Writing runtime sql for node "model.fitness_pipeline.stg_weight_log"
+[0m23:12:11.312735 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:12:11.313247 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:12:11.313247 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_weight_log"} */
+
+  create view "fitness_db"."public_staging"."stg_weight_log__dbt_tmp"
+    
+    
+  as (
+    with source as (
+    select * from "fitness_db"."raw"."weight_log"
+),
+cleaned as (
+    select
+        date::date                as logged_date,
+        weight_lbs::numeric(5,2)  as weight_lbs
+    from source
+    where date is not null
+      and weight_lbs is not null
+)
+select * from cleaned
+  );
+[0m23:12:11.313247 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_workout_log"} */
+
+  create view "fitness_db"."public_staging"."stg_workout_log__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_workout_log.sql
+
+with source as (
+    select * from "fitness_db"."raw"."workout_log"
+),
+
+cleaned as (
+    select
+        date::date                          as logged_date,
+        lower(trim(day_type))               as day_type,
+        lower(trim(exercise))               as exercise,
+        lower(trim(side))                   as side,         -- null for bilateral
+        set_number::integer                 as set_number,
+        weight_lbs::numeric(6,2)            as weight_lbs,
+        reps::integer                       as reps,
+
+        -- Derived: is this a unilateral exercise?
+        case
+            when lower(trim(exercise)) in (
+                'single arm row',
+                'preacher curl',
+                'lateral raise',
+                'tricep extension',
+                'calf raise'
+            ) then true
+            else false
+        end                                 as is_unilateral,
+
+        -- Convenience: incline chest press has only 1 set
+        case
+            when lower(trim(exercise)) = 'incline chest press' then 1
+            else 2
+        end                                 as expected_sets,
+
+        -- Volume for this set row
+        (weight_lbs::numeric * reps::integer) as set_volume_lbs
+
+    from source
+    where date is not null
+      and exercise is not null
+      and set_number is not null
+)
+
+select * from cleaned
+  );
+[0m23:12:11.314245 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m23:12:11.314245 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m23:12:11.332154 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.018 seconds
+[0m23:12:11.332154 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.018 seconds
+[0m23:12:11.337749 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:12:11.340257 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:12:11.340257 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_weight_log"} */
+alter table "fitness_db"."public_staging"."stg_weight_log__dbt_tmp" rename to "stg_weight_log"
+[0m23:12:11.341258 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_workout_log"} */
+alter table "fitness_db"."public_staging"."stg_workout_log__dbt_tmp" rename to "stg_workout_log"
+[0m23:12:11.342661 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:12:11.342661 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:12:11.355140 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: COMMIT
+[0m23:12:11.356139 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: COMMIT
+[0m23:12:11.357138 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:12:11.357138 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:12:11.358138 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: COMMIT
+[0m23:12:11.358138 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: COMMIT
+[0m23:12:11.360911 [debug] [Thread-2 (]: SQL status: COMMIT in 0.002 seconds
+[0m23:12:11.367224 [debug] [Thread-2 (]: Applying DROP to: "fitness_db"."public_staging"."stg_workout_log__dbt_backup"
+[0m23:12:11.367771 [debug] [Thread-1 (]: SQL status: COMMIT in 0.009 seconds
+[0m23:12:11.371369 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:12:11.374064 [debug] [Thread-1 (]: Applying DROP to: "fitness_db"."public_staging"."stg_weight_log__dbt_backup"
+[0m23:12:11.374575 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_workout_log"} */
+drop view if exists "fitness_db"."public_staging"."stg_workout_log__dbt_backup" cascade
+[0m23:12:11.375125 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:12:11.375642 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_weight_log"} */
+drop view if exists "fitness_db"."public_staging"."stg_weight_log__dbt_backup" cascade
+[0m23:12:11.376701 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.001 seconds
+[0m23:12:11.376701 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.002 seconds
+[0m23:12:11.378699 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: Close
+[0m23:12:11.380626 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: Close
+[0m23:12:11.382661 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DDB753D0>]}
+[0m23:12:11.383661 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DE3026C0>]}
+[0m23:12:11.383661 [info ] [Thread-1 (]: 1 of 5 OK created sql view model public_staging.stg_weight_log ................. [[32mCREATE VIEW[0m in 0.11s]
+[0m23:12:11.384661 [info ] [Thread-2 (]: 2 of 5 OK created sql view model public_staging.stg_workout_log ................ [[32mCREATE VIEW[0m in 0.12s]
+[0m23:12:11.385661 [debug] [Thread-1 (]: Finished running node model.fitness_pipeline.stg_weight_log
+[0m23:12:11.386402 [debug] [Thread-2 (]: Finished running node model.fitness_pipeline.stg_workout_log
+[0m23:12:11.386928 [debug] [Thread-4 (]: Began running node model.fitness_pipeline.fct_daily_weight
+[0m23:12:11.387452 [debug] [Thread-1 (]: Began running node model.fitness_pipeline.fct_workout_session
+[0m23:12:11.388001 [info ] [Thread-4 (]: 3 of 5 START sql table model public_marts.fct_daily_weight ..................... [RUN]
+[0m23:12:11.388523 [info ] [Thread-1 (]: 4 of 5 START sql table model public_marts.fct_workout_session .................. [RUN]
+[0m23:12:11.389034 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.fitness_pipeline.fct_daily_weight'
+[0m23:12:11.389034 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.fitness_pipeline.stg_weight_log, now model.fitness_pipeline.fct_workout_session)
+[0m23:12:11.390033 [debug] [Thread-4 (]: Began compiling node model.fitness_pipeline.fct_daily_weight
+[0m23:12:11.390033 [debug] [Thread-1 (]: Began compiling node model.fitness_pipeline.fct_workout_session
+[0m23:12:11.392032 [debug] [Thread-4 (]: Writing injected SQL for node "model.fitness_pipeline.fct_daily_weight"
+[0m23:12:11.395072 [debug] [Thread-1 (]: Writing injected SQL for node "model.fitness_pipeline.fct_workout_session"
+[0m23:12:11.396073 [debug] [Thread-4 (]: Began executing node model.fitness_pipeline.fct_daily_weight
+[0m23:12:11.396073 [debug] [Thread-1 (]: Began executing node model.fitness_pipeline.fct_workout_session
+[0m23:12:11.414086 [debug] [Thread-4 (]: Writing runtime sql for node "model.fitness_pipeline.fct_daily_weight"
+[0m23:12:11.416373 [debug] [Thread-1 (]: Writing runtime sql for node "model.fitness_pipeline.fct_workout_session"
+[0m23:12:11.418370 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:12:11.418370 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:12:11.419371 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_daily_weight"} */
+
+  
+    
+
+  create  table "fitness_db"."public_marts"."fct_daily_weight__dbt_tmp"
+  
+  
+    as
+  
+  (
+    with base as (
+    select * from "fitness_db"."public_staging"."stg_weight_log"
+),
+with_rolling as (
+    select
+        logged_date,
+        weight_lbs,
+        round(avg(weight_lbs) over (
+            order by logged_date
+            rows between 6 preceding and current row
+        ), 2) as weight_7day_avg_lbs,
+        weight_lbs - lag(weight_lbs) over (
+            order by logged_date
+        )     as weight_change_lbs
+    from base
+)
+select * from with_rolling
+order by logged_date
+  );
+  
+[0m23:12:11.419371 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_workout_session"} */
+
+  
+    
+
+  create  table "fitness_db"."public_marts"."fct_workout_session__dbt_tmp"
+  
+  
+    as
+  
+  (
+    with sets as (
+    select * from "fitness_db"."public_staging"."stg_workout_log"
+),
+session_agg as (
+    select
+        logged_date,
+        day_type,
+        exercise,
+        side,
+        is_unilateral,
+        expected_sets,
+        count(*)                                  as sets_completed,
+        sum(reps)                                 as total_reps,
+        max(weight_lbs)                           as max_weight_lbs,
+        round(avg(weight_lbs), 2)                 as avg_weight_lbs,
+        sum(set_volume_lbs)                       as total_volume_lbs,
+        bool_and(reps between 5 and 8)            as all_sets_in_rep_range,
+        count(*) = expected_sets                  as completed_all_sets
+    from sets
+    group by 1,2,3,4,5,6
+)
+select * from session_agg
+order by logged_date, exercise, side nulls first
+  );
+  
+[0m23:12:11.419371 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m23:12:11.420370 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:12:11.438701 [debug] [Thread-4 (]: SQL status: SELECT 5 in 0.019 seconds
+[0m23:12:11.444436 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:12:11.444436 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.024 seconds
+[0m23:12:11.445437 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_daily_weight"} */
+alter table "fitness_db"."public_marts"."fct_daily_weight__dbt_tmp" rename to "fct_daily_weight"
+[0m23:12:11.447957 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:12:11.447957 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_workout_session"} */
+alter table "fitness_db"."public_marts"."fct_workout_session__dbt_tmp" rename to "fct_workout_session"
+[0m23:12:11.448957 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:12:11.448957 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:12:11.450957 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: COMMIT
+[0m23:12:11.452070 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: COMMIT
+[0m23:12:11.452580 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:12:11.452580 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:12:11.452580 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: COMMIT
+[0m23:12:11.453579 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: COMMIT
+[0m23:12:11.455579 [debug] [Thread-4 (]: SQL status: COMMIT in 0.001 seconds
+[0m23:12:11.457477 [debug] [Thread-4 (]: Applying DROP to: "fitness_db"."public_marts"."fct_daily_weight__dbt_backup"
+[0m23:12:11.457988 [debug] [Thread-1 (]: SQL status: COMMIT in 0.004 seconds
+[0m23:12:11.459986 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:12:11.462526 [debug] [Thread-1 (]: Applying DROP to: "fitness_db"."public_marts"."fct_workout_session__dbt_backup"
+[0m23:12:11.463523 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_daily_weight"} */
+drop table if exists "fitness_db"."public_marts"."fct_daily_weight__dbt_backup" cascade
+[0m23:12:11.464522 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:12:11.464522 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_workout_session"} */
+drop table if exists "fitness_db"."public_marts"."fct_workout_session__dbt_backup" cascade
+[0m23:12:11.465523 [debug] [Thread-4 (]: SQL status: DROP TABLE in 0.001 seconds
+[0m23:12:11.466566 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: Close
+[0m23:12:11.467075 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.002 seconds
+[0m23:12:11.467595 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DE3BFEF0>]}
+[0m23:12:11.468624 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: Close
+[0m23:12:11.469623 [info ] [Thread-4 (]: 3 of 5 OK created sql table model public_marts.fct_daily_weight ................ [[32mSELECT 5[0m in 0.08s]
+[0m23:12:11.469623 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DE3529F0>]}
+[0m23:12:11.470624 [debug] [Thread-4 (]: Finished running node model.fitness_pipeline.fct_daily_weight
+[0m23:12:11.470624 [info ] [Thread-1 (]: 4 of 5 OK created sql table model public_marts.fct_workout_session ............. [[32mSELECT 8[0m in 0.08s]
+[0m23:12:11.471623 [debug] [Thread-1 (]: Finished running node model.fitness_pipeline.fct_workout_session
+[0m23:12:11.472623 [debug] [Thread-2 (]: Began running node model.fitness_pipeline.fct_pr_tracker
+[0m23:12:11.472623 [info ] [Thread-2 (]: 5 of 5 START sql table model public_marts.fct_pr_tracker ....................... [RUN]
+[0m23:12:11.473623 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.fitness_pipeline.stg_workout_log, now model.fitness_pipeline.fct_pr_tracker)
+[0m23:12:11.473623 [debug] [Thread-2 (]: Began compiling node model.fitness_pipeline.fct_pr_tracker
+[0m23:12:11.476623 [debug] [Thread-2 (]: Writing injected SQL for node "model.fitness_pipeline.fct_pr_tracker"
+[0m23:12:11.477574 [debug] [Thread-2 (]: Began executing node model.fitness_pipeline.fct_pr_tracker
+[0m23:12:11.479606 [debug] [Thread-2 (]: Writing runtime sql for node "model.fitness_pipeline.fct_pr_tracker"
+[0m23:12:11.480605 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:12:11.481606 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_pr_tracker"} */
+
+  
+    
+
+  create  table "fitness_db"."public_marts"."fct_pr_tracker__dbt_tmp"
+  
+  
+    as
+  
+  (
+    -- models/marts/fct_pr_tracker.sql
+-- Personal record (PR) tracker.
+-- A PR is set when max_weight_lbs on a given date exceeds all previous dates
+-- for that exercise + side combination.
+
+with sessions as (
+    select
+        logged_date,
+        exercise,
+        side,
+        max_weight_lbs,
+        total_volume_lbs,
+        total_reps
+    from "fitness_db"."public_marts"."fct_workout_session"
+),
+
+running_max as (
+    select
+        logged_date,
+        exercise,
+        side,
+        max_weight_lbs,
+        total_volume_lbs,
+        total_reps,
+
+        max(max_weight_lbs) over (
+            partition by exercise, side
+            order by logged_date
+            rows between unbounded preceding and 1 preceding
+        )                                               as prev_best_weight_lbs,
+
+        max(total_volume_lbs) over (
+            partition by exercise, side
+            order by logged_date
+            rows between unbounded preceding and 1 preceding
+        )                                               as prev_best_volume_lbs,
+
+        rank() over (
+            partition by exercise, side
+            order by max_weight_lbs desc, logged_date asc
+        )                                               as weight_rank
+
+    from sessions
+),
+
+prs as (
+    select
+        logged_date,
+        exercise,
+        side,
+        max_weight_lbs,
+        prev_best_weight_lbs,
+        total_volume_lbs,
+        prev_best_volume_lbs,
+        total_reps,
+        weight_rank,
+
+        -- Is this a weight PR?
+        case
+            when prev_best_weight_lbs is null then true   -- first time doing exercise
+            when max_weight_lbs > prev_best_weight_lbs then true
+            else false
+        end                                             as is_weight_pr,
+
+        -- Weight increase over previous best
+        max_weight_lbs - coalesce(prev_best_weight_lbs, max_weight_lbs)
+                                                        as weight_pr_increase_lbs
+
+    from running_max
+)
+
+select * from prs
+order by exercise, side nulls first, logged_date
+  );
+  
+[0m23:12:11.482290 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m23:12:11.498239 [debug] [Thread-2 (]: SQL status: SELECT 8 in 0.016 seconds
+[0m23:12:11.500267 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:12:11.501267 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_pr_tracker"} */
+alter table "fitness_db"."public_marts"."fct_pr_tracker__dbt_tmp" rename to "fct_pr_tracker"
+[0m23:12:11.502268 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:12:11.503288 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: COMMIT
+[0m23:12:11.503798 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:12:11.503798 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: COMMIT
+[0m23:12:11.505797 [debug] [Thread-2 (]: SQL status: COMMIT in 0.001 seconds
+[0m23:12:11.507730 [debug] [Thread-2 (]: Applying DROP to: "fitness_db"."public_marts"."fct_pr_tracker__dbt_backup"
+[0m23:12:11.508754 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:12:11.508754 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_pr_tracker"} */
+drop table if exists "fitness_db"."public_marts"."fct_pr_tracker__dbt_backup" cascade
+[0m23:12:11.509262 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.001 seconds
+[0m23:12:11.511262 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: Close
+[0m23:12:11.511262 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd7f28d4d-3dc4-4a5d-ab7e-ec6911945917', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DE2E8680>]}
+[0m23:12:11.512288 [info ] [Thread-2 (]: 5 of 5 OK created sql table model public_marts.fct_pr_tracker .................. [[32mSELECT 8[0m in 0.04s]
+[0m23:12:11.513336 [debug] [Thread-2 (]: Finished running node model.fitness_pipeline.fct_pr_tracker
+[0m23:12:11.514377 [debug] [MainThread]: On master: COMMIT
+[0m23:12:11.514886 [debug] [MainThread]: Using postgres connection "master"
+[0m23:12:11.514886 [debug] [MainThread]: On master: COMMIT
+[0m23:12:11.514886 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:12:11.526912 [debug] [MainThread]: SQL status: COMMIT in 0.011 seconds
+[0m23:12:11.526912 [debug] [MainThread]: On master: Close
+[0m23:12:11.527912 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:12:11.527912 [debug] [MainThread]: Connection 'create_fitness_db_public_staging' was properly closed.
+[0m23:12:11.527912 [debug] [MainThread]: Connection 'create_fitness_db_public_marts' was properly closed.
+[0m23:12:11.528883 [debug] [MainThread]: Connection 'list_fitness_db_public_staging' was properly closed.
+[0m23:12:11.529398 [debug] [MainThread]: Connection 'list_fitness_db_public_marts' was properly closed.
+[0m23:12:11.529398 [debug] [MainThread]: Connection 'model.fitness_pipeline.fct_workout_session' was properly closed.
+[0m23:12:11.529922 [debug] [MainThread]: Connection 'model.fitness_pipeline.fct_pr_tracker' was properly closed.
+[0m23:12:11.529922 [debug] [MainThread]: Connection 'model.fitness_pipeline.fct_daily_weight' was properly closed.
+[0m23:12:11.530443 [info ] [MainThread]: 
+[0m23:12:11.530952 [info ] [MainThread]: Finished running 3 table models, 2 view models in 0 hours 0 minutes and 2.46 seconds (2.46s).
+[0m23:12:11.531951 [debug] [MainThread]: Command end result
+[0m23:12:11.549216 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\manifest.json
+[0m23:12:11.550792 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\semantic_manifest.json
+[0m23:12:11.556514 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\run_results.json
+[0m23:12:11.557032 [info ] [MainThread]: 
+[0m23:12:11.557551 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:12:11.558066 [info ] [MainThread]: 
+[0m23:12:11.558619 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=5
+[0m23:12:11.560715 [debug] [MainThread]: Command `dbt run` succeeded at 23:12:11.560715 after 4.18 seconds
+[0m23:12:11.561234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DC0ED550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DB3950A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A6DB394FB0>]}
+[0m23:12:11.561772 [debug] [MainThread]: Flushing usage events
+[0m23:12:12.269784 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:47:19.901021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A279240D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2791558E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27BE66FC0>]}
+
+
+============================== 23:47:19.906065 | bab7dc60-a197-4832-959a-039ca5cf321f ==============================
+[0m23:47:19.906065 [info ] [MainThread]: Running with dbt=1.11.6
+[0m23:47:19.906577 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Brian\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Brian\\Desktop\\fitness_pipeline\\dbt_project\\logs'}
+[0m23:47:20.125281 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27C6B3CE0>]}
+[0m23:47:20.207738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27B89EA20>]}
+[0m23:47:20.208739 [info ] [MainThread]: Registered adapter: postgres=1.10.0
+[0m23:47:20.491261 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m23:47:20.629108 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:47:20.629108 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m23:47:20.629108 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:47:20.658678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27C691190>]}
+[0m23:47:20.717589 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\manifest.json
+[0m23:47:20.720588 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\semantic_manifest.json
+[0m23:47:20.752555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27E0A12E0>]}
+[0m23:47:20.753561 [info ] [MainThread]: Found 5 models, 2 sources, 464 macros
+[0m23:47:20.754560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27D936B10>]}
+[0m23:47:20.756554 [info ] [MainThread]: 
+[0m23:47:20.757554 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m23:47:20.757554 [info ] [MainThread]: 
+[0m23:47:20.758555 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:47:20.762607 [debug] [ThreadPool]: Acquiring new postgres connection 'list_fitness_db'
+[0m23:47:20.763120 [debug] [ThreadPool]: Acquiring new postgres connection 'list_fitness_db'
+[0m23:47:20.839083 [debug] [ThreadPool]: Using postgres connection "list_fitness_db"
+[0m23:47:20.839083 [debug] [ThreadPool]: Using postgres connection "list_fitness_db"
+[0m23:47:20.839083 [debug] [ThreadPool]: On list_fitness_db: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "list_fitness_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:47:20.840082 [debug] [ThreadPool]: On list_fitness_db: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "list_fitness_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:47:20.840082 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:47:20.841083 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:47:20.858642 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.018 seconds
+[0m23:47:20.860641 [debug] [ThreadPool]: On list_fitness_db: Close
+[0m23:47:20.864641 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.025 seconds
+[0m23:47:20.866640 [debug] [ThreadPool]: On list_fitness_db: Close
+[0m23:47:20.867641 [debug] [ThreadPool]: Acquiring new postgres connection 'list_fitness_db_public_marts'
+[0m23:47:20.867641 [debug] [ThreadPool]: Acquiring new postgres connection 'list_fitness_db_public_staging'
+[0m23:47:20.872641 [debug] [ThreadPool]: Using postgres connection "list_fitness_db_public_marts"
+[0m23:47:20.874642 [debug] [ThreadPool]: Using postgres connection "list_fitness_db_public_staging"
+[0m23:47:20.874642 [debug] [ThreadPool]: On list_fitness_db_public_marts: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "list_fitness_db_public_marts"} */
+select
+      'fitness_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'fitness_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_marts'
+    union all
+    select
+      'fitness_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_marts'
+  
+[0m23:47:20.875641 [debug] [ThreadPool]: On list_fitness_db_public_staging: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "list_fitness_db_public_staging"} */
+select
+      'fitness_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public_staging'
+    union all
+    select
+      'fitness_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public_staging'
+    union all
+    select
+      'fitness_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public_staging'
+  
+[0m23:47:20.875641 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:47:20.876641 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:47:20.890848 [debug] [ThreadPool]: SQL status: SELECT 3 in 0.015 seconds
+[0m23:47:20.891848 [debug] [ThreadPool]: On list_fitness_db_public_marts: ROLLBACK
+[0m23:47:20.892848 [debug] [ThreadPool]: On list_fitness_db_public_marts: Close
+[0m23:47:20.911945 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.036 seconds
+[0m23:47:20.912945 [debug] [ThreadPool]: On list_fitness_db_public_staging: ROLLBACK
+[0m23:47:20.913945 [debug] [ThreadPool]: On list_fitness_db_public_staging: Close
+[0m23:47:20.918523 [debug] [MainThread]: Using postgres connection "master"
+[0m23:47:20.918523 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m23:47:20.919522 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:47:20.933607 [debug] [MainThread]: SQL status: SELECT 2 in 0.014 seconds
+[0m23:47:20.934633 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27D937410>]}
+[0m23:47:20.935630 [debug] [MainThread]: On master: ROLLBACK
+[0m23:47:20.935630 [debug] [MainThread]: On master: COMMIT
+[0m23:47:20.936630 [debug] [MainThread]: Using postgres connection "master"
+[0m23:47:20.936630 [debug] [MainThread]: On master: COMMIT
+[0m23:47:20.937631 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m23:47:20.937631 [debug] [MainThread]: On master: Close
+[0m23:47:20.942630 [debug] [Thread-1 (]: Began running node model.fitness_pipeline.stg_weight_log
+[0m23:47:20.942630 [debug] [Thread-2 (]: Began running node model.fitness_pipeline.stg_workout_log
+[0m23:47:20.943629 [info ] [Thread-1 (]: 1 of 5 START sql view model public_staging.stg_weight_log ...................... [RUN]
+[0m23:47:20.944630 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.fitness_pipeline.stg_weight_log'
+[0m23:47:20.944630 [debug] [Thread-1 (]: Began compiling node model.fitness_pipeline.stg_weight_log
+[0m23:47:20.950956 [debug] [Thread-1 (]: Writing injected SQL for node "model.fitness_pipeline.stg_weight_log"
+[0m23:47:20.943629 [info ] [Thread-2 (]: 2 of 5 START sql view model public_staging.stg_workout_log ..................... [RUN]
+[0m23:47:20.951956 [debug] [Thread-2 (]: Acquiring new postgres connection 'model.fitness_pipeline.stg_workout_log'
+[0m23:47:20.951956 [debug] [Thread-2 (]: Began compiling node model.fitness_pipeline.stg_workout_log
+[0m23:47:20.952957 [debug] [Thread-1 (]: Began executing node model.fitness_pipeline.stg_weight_log
+[0m23:47:20.954958 [debug] [Thread-2 (]: Writing injected SQL for node "model.fitness_pipeline.stg_workout_log"
+[0m23:47:20.986076 [debug] [Thread-1 (]: Writing runtime sql for node "model.fitness_pipeline.stg_weight_log"
+[0m23:47:20.987076 [debug] [Thread-2 (]: Began executing node model.fitness_pipeline.stg_workout_log
+[0m23:47:20.990078 [debug] [Thread-2 (]: Writing runtime sql for node "model.fitness_pipeline.stg_workout_log"
+[0m23:47:20.991078 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:47:20.992079 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_weight_log"} */
+
+  create view "fitness_db"."public_staging"."stg_weight_log__dbt_tmp"
+    
+    
+  as (
+    with source as (
+    select * from "fitness_db"."raw"."weight_log"
+),
+cleaned as (
+    select
+        date::date                as logged_date,
+        weight_lbs::numeric(5,2)  as weight_lbs
+    from source
+    where date is not null
+      and weight_lbs is not null
+)
+select * from cleaned
+  );
+[0m23:47:20.992079 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m23:47:20.993077 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:47:20.993077 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_workout_log"} */
+
+  create view "fitness_db"."public_staging"."stg_workout_log__dbt_tmp"
+    
+    
+  as (
+    -- models/staging/stg_workout_log.sql
+
+with source as (
+    select * from "fitness_db"."raw"."workout_log"
+),
+
+cleaned as (
+    select
+        date::date                          as logged_date,
+        lower(trim(day_type))               as day_type,
+        lower(trim(exercise))               as exercise,
+        lower(trim(side))                   as side,         -- null for bilateral
+        set_number::integer                 as set_number,
+        weight_lbs::numeric(6,2)            as weight_lbs,
+        reps::integer                       as reps,
+
+        -- Derived: is this a unilateral exercise?
+        case
+            when lower(trim(exercise)) in (
+                'single arm row',
+                'preacher curl',
+                'lateral raise',
+                'tricep extension',
+                'calf raise'
+            ) then true
+            else false
+        end                                 as is_unilateral,
+
+        -- Convenience: incline chest press has only 1 set
+        case
+            when lower(trim(exercise)) = 'incline chest press' then 1
+            else 2
+        end                                 as expected_sets,
+
+        -- Volume for this set row
+        (weight_lbs::numeric * reps::integer) as set_volume_lbs
+
+    from source
+    where date is not null
+      and exercise is not null
+      and set_number is not null
+)
+
+select * from cleaned
+  );
+[0m23:47:20.994078 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m23:47:21.014561 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.020 seconds
+[0m23:47:21.094771 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:47:21.095770 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.103 seconds
+[0m23:47:21.095770 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_workout_log"} */
+alter table "fitness_db"."public_staging"."stg_workout_log" rename to "stg_workout_log__dbt_backup"
+[0m23:47:21.097770 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:47:21.098771 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_weight_log"} */
+alter table "fitness_db"."public_staging"."stg_weight_log" rename to "stg_weight_log__dbt_backup"
+[0m23:47:21.099772 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.099772 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.102771 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:47:21.104770 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:47:21.104770 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_workout_log"} */
+alter table "fitness_db"."public_staging"."stg_workout_log__dbt_tmp" rename to "stg_workout_log"
+[0m23:47:21.105772 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_weight_log"} */
+alter table "fitness_db"."public_staging"."stg_weight_log__dbt_tmp" rename to "stg_weight_log"
+[0m23:47:21.106884 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.106884 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.121996 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: COMMIT
+[0m23:47:21.122995 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: COMMIT
+[0m23:47:21.123995 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:47:21.123995 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:47:21.123995 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: COMMIT
+[0m23:47:21.124995 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: COMMIT
+[0m23:47:21.127995 [debug] [Thread-2 (]: SQL status: COMMIT in 0.002 seconds
+[0m23:47:21.132995 [debug] [Thread-2 (]: Applying DROP to: "fitness_db"."public_staging"."stg_workout_log__dbt_backup"
+[0m23:47:21.132995 [debug] [Thread-1 (]: SQL status: COMMIT in 0.008 seconds
+[0m23:47:21.137611 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.stg_workout_log"
+[0m23:47:21.139611 [debug] [Thread-1 (]: Applying DROP to: "fitness_db"."public_staging"."stg_weight_log__dbt_backup"
+[0m23:47:21.140612 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_workout_log"} */
+drop view if exists "fitness_db"."public_staging"."stg_workout_log__dbt_backup" cascade
+[0m23:47:21.140612 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.stg_weight_log"
+[0m23:47:21.141612 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.stg_weight_log"} */
+drop view if exists "fitness_db"."public_staging"."stg_weight_log__dbt_backup" cascade
+[0m23:47:21.144611 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.003 seconds
+[0m23:47:21.147611 [debug] [Thread-1 (]: On model.fitness_pipeline.stg_weight_log: Close
+[0m23:47:21.147611 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.006 seconds
+[0m23:47:21.149612 [debug] [Thread-2 (]: On model.fitness_pipeline.stg_workout_log: Close
+[0m23:47:21.150611 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27E4A46B0>]}
+[0m23:47:21.150611 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27B7A14C0>]}
+[0m23:47:21.151611 [info ] [Thread-1 (]: 1 of 5 OK created sql view model public_staging.stg_weight_log ................. [[32mCREATE VIEW[0m in 0.20s]
+[0m23:47:21.153344 [debug] [Thread-1 (]: Finished running node model.fitness_pipeline.stg_weight_log
+[0m23:47:21.153344 [debug] [Thread-4 (]: Began running node model.fitness_pipeline.fct_daily_weight
+[0m23:47:21.152347 [info ] [Thread-2 (]: 2 of 5 OK created sql view model public_staging.stg_workout_log ................ [[32mCREATE VIEW[0m in 0.20s]
+[0m23:47:21.155344 [debug] [Thread-2 (]: Finished running node model.fitness_pipeline.stg_workout_log
+[0m23:47:21.154344 [info ] [Thread-4 (]: 3 of 5 START sql table model public_marts.fct_daily_weight ..................... [RUN]
+[0m23:47:21.155344 [debug] [Thread-1 (]: Began running node model.fitness_pipeline.fct_workout_session
+[0m23:47:21.156343 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.fitness_pipeline.fct_daily_weight'
+[0m23:47:21.156343 [info ] [Thread-1 (]: 4 of 5 START sql table model public_marts.fct_workout_session .................. [RUN]
+[0m23:47:21.157343 [debug] [Thread-4 (]: Began compiling node model.fitness_pipeline.fct_daily_weight
+[0m23:47:21.157343 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.fitness_pipeline.stg_weight_log, now model.fitness_pipeline.fct_workout_session)
+[0m23:47:21.159343 [debug] [Thread-4 (]: Writing injected SQL for node "model.fitness_pipeline.fct_daily_weight"
+[0m23:47:21.160343 [debug] [Thread-1 (]: Began compiling node model.fitness_pipeline.fct_workout_session
+[0m23:47:21.162344 [debug] [Thread-1 (]: Writing injected SQL for node "model.fitness_pipeline.fct_workout_session"
+[0m23:47:21.163344 [debug] [Thread-4 (]: Began executing node model.fitness_pipeline.fct_daily_weight
+[0m23:47:21.182421 [debug] [Thread-4 (]: Writing runtime sql for node "model.fitness_pipeline.fct_daily_weight"
+[0m23:47:21.182936 [debug] [Thread-1 (]: Began executing node model.fitness_pipeline.fct_workout_session
+[0m23:47:21.185933 [debug] [Thread-1 (]: Writing runtime sql for node "model.fitness_pipeline.fct_workout_session"
+[0m23:47:21.185933 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:47:21.186934 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_daily_weight"} */
+
+  
+    
+
+  create  table "fitness_db"."public_marts"."fct_daily_weight__dbt_tmp"
+  
+  
+    as
+  
+  (
+    with base as (
+    select * from "fitness_db"."public_staging"."stg_weight_log"
+),
+with_rolling as (
+    select
+        logged_date,
+        weight_lbs,
+        round(avg(weight_lbs) over (
+            order by logged_date
+            rows between 6 preceding and current row
+        ), 2) as weight_7day_avg_lbs,
+        weight_lbs - lag(weight_lbs) over (
+            order by logged_date
+        )     as weight_change_lbs
+    from base
+)
+select * from with_rolling
+order by logged_date
+  );
+  
+[0m23:47:21.186934 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m23:47:21.187932 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:47:21.187932 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_workout_session"} */
+
+  
+    
+
+  create  table "fitness_db"."public_marts"."fct_workout_session__dbt_tmp"
+  
+  
+    as
+  
+  (
+    with sets as (
+    select * from "fitness_db"."public_staging"."stg_workout_log"
+),
+session_agg as (
+    select
+        logged_date,
+        day_type,
+        exercise,
+        side,
+        is_unilateral,
+        expected_sets,
+        count(*)                                  as sets_completed,
+        sum(reps)                                 as total_reps,
+        max(weight_lbs)                           as max_weight_lbs,
+        round(avg(weight_lbs), 2)                 as avg_weight_lbs,
+        sum(set_volume_lbs)                       as total_volume_lbs,
+        bool_and(reps between 5 and 8)            as all_sets_in_rep_range,
+        count(*) = expected_sets                  as completed_all_sets
+    from sets
+    group by 1,2,3,4,5,6
+)
+select * from session_agg
+order by logged_date, exercise, side nulls first
+  );
+  
+[0m23:47:21.188934 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m23:47:21.205253 [debug] [Thread-4 (]: SQL status: SELECT 5 in 0.018 seconds
+[0m23:47:21.210255 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:47:21.211253 [debug] [Thread-1 (]: SQL status: SELECT 32 in 0.022 seconds
+[0m23:47:21.211253 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_daily_weight"} */
+alter table "fitness_db"."public_marts"."fct_daily_weight" rename to "fct_daily_weight__dbt_backup"
+[0m23:47:21.213788 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:47:21.214788 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_workout_session"} */
+alter table "fitness_db"."public_marts"."fct_workout_session" rename to "fct_workout_session__dbt_backup"
+[0m23:47:21.214788 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.217787 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:47:21.217787 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m23:47:21.217787 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_daily_weight"} */
+alter table "fitness_db"."public_marts"."fct_daily_weight__dbt_tmp" rename to "fct_daily_weight"
+[0m23:47:21.220786 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:47:21.220786 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_workout_session"} */
+alter table "fitness_db"."public_marts"."fct_workout_session__dbt_tmp" rename to "fct_workout_session"
+[0m23:47:21.221684 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.222683 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: COMMIT
+[0m23:47:21.222683 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.223682 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:47:21.224685 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: COMMIT
+[0m23:47:21.225682 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: COMMIT
+[0m23:47:21.225682 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:47:21.226681 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: COMMIT
+[0m23:47:21.227682 [debug] [Thread-4 (]: SQL status: COMMIT in 0.001 seconds
+[0m23:47:21.229222 [debug] [Thread-4 (]: Applying DROP to: "fitness_db"."public_marts"."fct_daily_weight__dbt_backup"
+[0m23:47:21.230218 [debug] [Thread-1 (]: SQL status: COMMIT in 0.003 seconds
+[0m23:47:21.232336 [debug] [Thread-4 (]: Using postgres connection "model.fitness_pipeline.fct_daily_weight"
+[0m23:47:21.234333 [debug] [Thread-1 (]: Applying DROP to: "fitness_db"."public_marts"."fct_workout_session__dbt_backup"
+[0m23:47:21.235333 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_daily_weight"} */
+drop table if exists "fitness_db"."public_marts"."fct_daily_weight__dbt_backup" cascade
+[0m23:47:21.235333 [debug] [Thread-1 (]: Using postgres connection "model.fitness_pipeline.fct_workout_session"
+[0m23:47:21.236333 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_workout_session"} */
+drop table if exists "fitness_db"."public_marts"."fct_workout_session__dbt_backup" cascade
+[0m23:47:21.238336 [debug] [Thread-4 (]: SQL status: DROP TABLE in 0.002 seconds
+[0m23:47:21.239335 [debug] [Thread-4 (]: On model.fitness_pipeline.fct_daily_weight: Close
+[0m23:47:21.240335 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.003 seconds
+[0m23:47:21.240335 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27E119610>]}
+[0m23:47:21.242336 [debug] [Thread-1 (]: On model.fitness_pipeline.fct_workout_session: Close
+[0m23:47:21.243338 [info ] [Thread-4 (]: 3 of 5 OK created sql table model public_marts.fct_daily_weight ................ [[32mSELECT 5[0m in 0.08s]
+[0m23:47:21.244915 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27E0A2EA0>]}
+[0m23:47:21.244915 [debug] [Thread-4 (]: Finished running node model.fitness_pipeline.fct_daily_weight
+[0m23:47:21.245912 [info ] [Thread-1 (]: 4 of 5 OK created sql table model public_marts.fct_workout_session ............. [[32mSELECT 32[0m in 0.09s]
+[0m23:47:21.247914 [debug] [Thread-1 (]: Finished running node model.fitness_pipeline.fct_workout_session
+[0m23:47:21.248912 [debug] [Thread-2 (]: Began running node model.fitness_pipeline.fct_pr_tracker
+[0m23:47:21.248912 [info ] [Thread-2 (]: 5 of 5 START sql table model public_marts.fct_pr_tracker ....................... [RUN]
+[0m23:47:21.249910 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.fitness_pipeline.stg_workout_log, now model.fitness_pipeline.fct_pr_tracker)
+[0m23:47:21.250912 [debug] [Thread-2 (]: Began compiling node model.fitness_pipeline.fct_pr_tracker
+[0m23:47:21.253914 [debug] [Thread-2 (]: Writing injected SQL for node "model.fitness_pipeline.fct_pr_tracker"
+[0m23:47:21.254910 [debug] [Thread-2 (]: Began executing node model.fitness_pipeline.fct_pr_tracker
+[0m23:47:21.257911 [debug] [Thread-2 (]: Writing runtime sql for node "model.fitness_pipeline.fct_pr_tracker"
+[0m23:47:21.260514 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:47:21.261032 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_pr_tracker"} */
+
+  
+    
+
+  create  table "fitness_db"."public_marts"."fct_pr_tracker__dbt_tmp"
+  
+  
+    as
+  
+  (
+    -- models/marts/fct_pr_tracker.sql
+-- Personal record (PR) tracker.
+-- A PR is set when max_weight_lbs on a given date exceeds all previous dates
+-- for that exercise + side combination.
+
+with sessions as (
+    select
+        logged_date,
+        exercise,
+        side,
+        max_weight_lbs,
+        total_volume_lbs,
+        total_reps
+    from "fitness_db"."public_marts"."fct_workout_session"
+),
+
+running_max as (
+    select
+        logged_date,
+        exercise,
+        side,
+        max_weight_lbs,
+        total_volume_lbs,
+        total_reps,
+
+        max(max_weight_lbs) over (
+            partition by exercise, side
+            order by logged_date
+            rows between unbounded preceding and 1 preceding
+        )                                               as prev_best_weight_lbs,
+
+        max(total_volume_lbs) over (
+            partition by exercise, side
+            order by logged_date
+            rows between unbounded preceding and 1 preceding
+        )                                               as prev_best_volume_lbs,
+
+        rank() over (
+            partition by exercise, side
+            order by max_weight_lbs desc, logged_date asc
+        )                                               as weight_rank
+
+    from sessions
+),
+
+prs as (
+    select
+        logged_date,
+        exercise,
+        side,
+        max_weight_lbs,
+        prev_best_weight_lbs,
+        total_volume_lbs,
+        prev_best_volume_lbs,
+        total_reps,
+        weight_rank,
+
+        -- Is this a weight PR?
+        case
+            when prev_best_weight_lbs is null then true   -- first time doing exercise
+            when max_weight_lbs > prev_best_weight_lbs then true
+            else false
+        end                                             as is_weight_pr,
+
+        -- Weight increase over previous best
+        max_weight_lbs - coalesce(prev_best_weight_lbs, max_weight_lbs)
+                                                        as weight_pr_increase_lbs
+
+    from running_max
+)
+
+select * from prs
+order by exercise, side nulls first, logged_date
+  );
+  
+[0m23:47:21.263032 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m23:47:21.282605 [debug] [Thread-2 (]: SQL status: SELECT 32 in 0.020 seconds
+[0m23:47:21.286023 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:47:21.289191 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_pr_tracker"} */
+alter table "fitness_db"."public_marts"."fct_pr_tracker" rename to "fct_pr_tracker__dbt_backup"
+[0m23:47:21.290756 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.293390 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:47:21.295396 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_pr_tracker"} */
+alter table "fitness_db"."public_marts"."fct_pr_tracker__dbt_tmp" rename to "fct_pr_tracker"
+[0m23:47:21.296391 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.001 seconds
+[0m23:47:21.298390 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: COMMIT
+[0m23:47:21.298390 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:47:21.299392 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: COMMIT
+[0m23:47:21.301390 [debug] [Thread-2 (]: SQL status: COMMIT in 0.002 seconds
+[0m23:47:21.304388 [debug] [Thread-2 (]: Applying DROP to: "fitness_db"."public_marts"."fct_pr_tracker__dbt_backup"
+[0m23:47:21.305391 [debug] [Thread-2 (]: Using postgres connection "model.fitness_pipeline.fct_pr_tracker"
+[0m23:47:21.305391 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "fitness_pipeline", "target_name": "dev", "node_id": "model.fitness_pipeline.fct_pr_tracker"} */
+drop table if exists "fitness_db"."public_marts"."fct_pr_tracker__dbt_backup" cascade
+[0m23:47:21.308728 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.003 seconds
+[0m23:47:21.310724 [debug] [Thread-2 (]: On model.fitness_pipeline.fct_pr_tracker: Close
+[0m23:47:21.311723 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'bab7dc60-a197-4832-959a-039ca5cf321f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27E5421B0>]}
+[0m23:47:21.312724 [info ] [Thread-2 (]: 5 of 5 OK created sql table model public_marts.fct_pr_tracker .................. [[32mSELECT 32[0m in 0.06s]
+[0m23:47:21.313726 [debug] [Thread-2 (]: Finished running node model.fitness_pipeline.fct_pr_tracker
+[0m23:47:21.316726 [debug] [MainThread]: On master: COMMIT
+[0m23:47:21.317725 [debug] [MainThread]: Using postgres connection "master"
+[0m23:47:21.317725 [debug] [MainThread]: On master: COMMIT
+[0m23:47:21.318727 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:47:21.332815 [debug] [MainThread]: SQL status: COMMIT in 0.015 seconds
+[0m23:47:21.333815 [debug] [MainThread]: On master: Close
+[0m23:47:21.333815 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:47:21.334814 [debug] [MainThread]: Connection 'list_fitness_db' was properly closed.
+[0m23:47:21.334814 [debug] [MainThread]: Connection 'list_fitness_db' was properly closed.
+[0m23:47:21.334814 [debug] [MainThread]: Connection 'list_fitness_db_public_marts' was properly closed.
+[0m23:47:21.335814 [debug] [MainThread]: Connection 'list_fitness_db_public_staging' was properly closed.
+[0m23:47:21.335814 [debug] [MainThread]: Connection 'model.fitness_pipeline.fct_workout_session' was properly closed.
+[0m23:47:21.335814 [debug] [MainThread]: Connection 'model.fitness_pipeline.fct_pr_tracker' was properly closed.
+[0m23:47:21.336887 [debug] [MainThread]: Connection 'model.fitness_pipeline.fct_daily_weight' was properly closed.
+[0m23:47:21.337405 [info ] [MainThread]: 
+[0m23:47:21.337405 [info ] [MainThread]: Finished running 3 table models, 2 view models in 0 hours 0 minutes and 0.58 seconds (0.58s).
+[0m23:47:21.339404 [debug] [MainThread]: Command end result
+[0m23:47:21.357347 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\manifest.json
+[0m23:47:21.359432 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\semantic_manifest.json
+[0m23:47:21.364667 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Brian\Desktop\fitness_pipeline\dbt_project\target\run_results.json
+[0m23:47:21.365190 [info ] [MainThread]: 
+[0m23:47:21.365710 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m23:47:21.366232 [info ] [MainThread]: 
+[0m23:47:21.366744 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=5
+[0m23:47:21.367742 [debug] [MainThread]: Command `dbt run` succeeded at 23:47:21.367742 after 1.59 seconds
+[0m23:47:21.367742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27C556480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27B77FE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A27BC1D2E0>]}
+[0m23:47:21.367742 [debug] [MainThread]: Flushing usage events
+[0m23:47:22.137592 [debug] [MainThread]: An error was encountered while trying to flush usage events
