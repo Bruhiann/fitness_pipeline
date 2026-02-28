@@ -10,7 +10,7 @@ import time
 import psycopg2
 from psycopg2.extras import execute_values
 
-# ── Connection config ──────────────────────────────────────────────────────────
+# Connection config 
 DB_CONFIG = {
     "host":     os.getenv("DB_HOST",     "localhost"),
     "port":     int(os.getenv("DB_PORT", "5432")),
@@ -22,13 +22,13 @@ DB_CONFIG = {
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
 
-# ── Helpers ────────────────────────────────────────────────────────────────────
+# Helpers 
 def connect(retries: int = 10, delay: int = 3) -> psycopg2.extensions.connection:
     """Wait for Postgres to be ready, then return a connection."""
     for attempt in range(1, retries + 1):
         try:
             conn = psycopg2.connect(**DB_CONFIG)
-            print("✅  Connected to Postgres.")
+            print(" Connected to Postgres.")
             return conn
         except psycopg2.OperationalError as e:
             print(f"   Attempt {attempt}/{retries} – DB not ready yet: {e}")
@@ -60,7 +60,7 @@ def load_csv(conn, filepath: str, table: str, columns: list[str], truncate: bool
     conn.commit()
 
 
-# ── Main ───────────────────────────────────────────────────────────────────────
+# Main
 def main():
     conn = connect()
 
@@ -81,7 +81,7 @@ def main():
     )
 
     conn.close()
-    print("\n✅  EL complete. Run `dbt run` to execute transformations.")
+    print("\n EL complete. Run `dbt run` to execute transformations.")
 
 
 if __name__ == "__main__":
